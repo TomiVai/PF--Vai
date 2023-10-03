@@ -57,7 +57,7 @@ body .navbar .navbar-collapse a {
 }
 .main-index .main-final .text-final {
   background-size: contain;
-  background-image: url(../Imagenes/00IMPORTS-jumbo.gif);
+  background-image: url(../imagenes/00IMPORTS-jumbo.gif);
   grid-row: 1/2;
   grid-column: span;
 }
