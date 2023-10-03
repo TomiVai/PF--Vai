@@ -233,6 +233,7 @@ body .navbar .navbar-collapse a {
 }
 @media screen and (max-width: 767px) {
   body {
+    overflow-x: hidden;
     width: 100%;
     display: grid;
     grid-template-rows: fit-content 1fr fit-content;
@@ -264,14 +265,15 @@ body .navbar .navbar-collapse a {
     display: grid;
     width: 100vw;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr fit-content;
     gap: 5px;
     grid-auto-flow: row;
     grid-row: 3/4;
   }
   .main-index .main-final .text-final {
+    font-size: 16px;
     grid-row: 1/2;
-    background-image: url(../Imagenes/00IMPORTS-jumbo.gif);
+    background-image: url(../imagenes/00IMPORTS-jumbo.gif);
     background-size: contain;
   }
   .main-index .main-final .vid-final {
