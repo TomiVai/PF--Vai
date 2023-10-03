@@ -49,6 +49,7 @@
 }
 @media screen and (max-width: 767px) {
     body {
+        width: $ancho;
         display: grid;
         grid-template-rows: fit-content 1fr fit-content;
         grid-template-columns: 100vw;
@@ -84,8 +85,11 @@
         grid-row: 3/4;    
             .text-final {  
             grid-row: 1/2;
+            background-image: url(../Imagenes/00IMPORTS-jumbo.gif);
+            background-size: contain;
             }
             .vid-final {
+            height: fit-content;
             grid-column: span;
             align-self: center;
             object-fit: scale-down;

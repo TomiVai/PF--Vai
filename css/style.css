@@ -233,6 +233,7 @@ body .navbar .navbar-collapse a {
 }
 @media screen and (max-width: 767px) {
   body {
+    width: 100%;
     display: grid;
     grid-template-rows: fit-content 1fr fit-content;
     grid-template-columns: 100vw;
@@ -270,8 +271,11 @@ body .navbar .navbar-collapse a {
   }
   .main-index .main-final .text-final {
     grid-row: 1/2;
+    background-image: url(../Imagenes/00IMPORTS-jumbo.gif);
+    background-size: contain;
   }
   .main-index .main-final .vid-final {
+    height: fit-content;
     grid-column: span;
     align-self: center;
     object-fit: scale-down;
