@@ -9,7 +9,7 @@
 .main-index {
     margin-top: 20px;
     width: $ancho;
-    @include gridindex (grid, 1fr, fit-content repeat(2, 1fr), 20px);
+    @include gridindex (grid, 100%, repeat(3, min-content), 20px);
     .Index-Container {
         grid-row: 1/2;
         background-image: url(https://i.gifer.com/7I3O.gif);
@@ -21,6 +21,8 @@
         }
     }
     .main-final {
+        width: $ancho;
+        height: $alto;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-row: 3/4;
@@ -45,7 +47,7 @@
         }
     // Form Inicio de Sesion //
     .form-section {
-        text-align-last: center;
+        text-align: center;
         grid-row: 2/3;
         .form-index {
         gap: 5px;
@@ -117,7 +119,7 @@
 /* Contactos */
 .main-contacto {
     width: $ancho;
-    height: fit-content;
+    height: min-content;
     margin: 0px 10px;
     ul {
     list-style: none;

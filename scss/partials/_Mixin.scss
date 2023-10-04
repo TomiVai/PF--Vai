@@ -7,8 +7,8 @@
     body {
         background-color: $background;
         overflow-x: hidden;
-        width: $anchovp;
-        height: 100vh;
+        width: $ancho;
+        height: $alto;
         .navbar {
             .navbar-toggler {
             background-color: $background;
