@@ -22,8 +22,8 @@
                 padding-left: $margennav;
             }
             .navbar-collapse {
-                a {
-                    padding: auto $margennav;
+                .nav-link {
+                    padding-left: $margennav;
                     font-size: 17px;
                 }
             }

@@ -21,8 +21,8 @@ body .navbar .navbar-brand {
   font-size: 20px;
   padding-left: 15px;
 }
-body .navbar .navbar-collapse a {
-  padding: auto 15px;
+body .navbar .navbar-collapse .nav-link {
+  padding-left: 15px;
   font-size: 17px;
 }
 
