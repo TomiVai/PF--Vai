@@ -19,10 +19,10 @@ body .navbar .navbar-brand, body .navbar .nav-link {
 body .navbar .navbar-brand {
   font-weight: bolder;
   font-size: 20px;
-  margin-left: 15px;
+  padding-left: 15px;
 }
 body .navbar .navbar-collapse a {
-  margin: auto 15px;
+  padding: auto 15px;
   font-size: 17px;
 }
 

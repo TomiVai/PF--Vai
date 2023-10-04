@@ -19,11 +19,11 @@
             .navbar-brand {
                 font-weight: bolder;
                 font-size: 20px;
-                margin-left: $margennav;
+                padding-left: $margennav;
             }
             .navbar-collapse {
                 a {
-                    margin: auto $margennav;
+                    padding: auto $margennav;
                     font-size: 17px;
                 }
             }
