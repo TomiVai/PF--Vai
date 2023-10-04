@@ -236,6 +236,7 @@ body .navbar .navbar-collapse a {
   .main-envios, .main-info {
     width: 100% !important;
     margin: none !important;
+    padding: 0px !important;
   }
   p {
     font-size: 14px;
