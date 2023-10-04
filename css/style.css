@@ -148,7 +148,6 @@ body .navbar .navbar-collapse a {
 .main-contacto {
   width: 100%;
   height: min-content;
-  margin: 0px 10px;
 }
 .main-contacto ul {
   list-style: none;
@@ -234,6 +233,10 @@ body .navbar .navbar-collapse a {
   }
 }
 @media screen and (max-width: 767px) {
+  .main-envios, .main-info {
+    width: 100% !important;
+    margin: none !important;
+  }
   p {
     font-size: 14px;
     font-weight: 100 !important;

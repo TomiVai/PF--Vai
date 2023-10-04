@@ -48,6 +48,10 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .main-envios, .main-info {
+        width: $ancho !important;
+        margin: none !important;
+    }
     p {
         font-size: 14px;
         font-weight: 100 !important;
